@@ -1,9 +1,9 @@
 # Site settings
 title: YCM 2030
 email: info@ycm2030.com
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
-baseurl: "/ycm_2030"
-url: "http://ycm2030.com"
+description: " Inspiration - Empowerment - Change"
+baseurl: ""
+url: "http://www.ycm2030.com"
 
 # Build settings
 markdown: kramdown

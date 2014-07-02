@@ -52,7 +52,7 @@
     $('#logo').click(function () {$.scrollTo('#home',1000,{easing:'easeInOutExpo',offset:-navbarheight,'axis':'y'}); return false});      
  
     var lastId,
-    topMenu = $('#navigation, #mobile_menu_content');
+    topMenu = $('#navigation_home, #mobile_menu_content_home');
     menuItems = topMenu.find('a');
     scrollItems = menuItems.map(function(){
         var item = $($(this).attr("href"));

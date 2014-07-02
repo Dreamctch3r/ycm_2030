@@ -228,7 +228,7 @@ a {
     color:white;
 }
 
-#mobile_menu_content {
+.mobile_menu_content {
     border-top: 1px solid #383838;
     clear:both;
 }
@@ -382,13 +382,13 @@ a {
     height:2.75rem;
 }
 
-#navigation ul {
+.navigation ul {
     float:right;
     margin-top:0.5rem;
     padding:0;
 }
 
-#navigation ul li {
+.navigation ul li {
     float:left;
     margin-left:1.2rem;
     padding:0;
@@ -396,7 +396,7 @@ a {
     color:#c4c4c4;
 }
 
-#navigation li a{
+.navigation li a{
     color:#c4c4c4;
     font-size: 0.875rem;
     font-family: 'Source Sans Pro', sans-serif;
@@ -405,7 +405,7 @@ a {
     text-decoration:none;
 }
 
-#navigation li a:hover,
+.navigation li a:hover,
 .mobile_nav_icon_open:hover {
     color:white;
 }
