@@ -203,8 +203,8 @@
             setTimeout(function(){$('#more_posts').addClass('animated fadeInUp')},800);
         }, { offset: '70%' });
         $('#contact').waypoint(function() {
-            setTimeout(function(){$('#contact_form').addClass('animated fadeInLeft')},0);
-            setTimeout(function(){$('#contact_info').addClass('animated fadeInRight')},200);
+            setTimeout(function(){$('#contact_left').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('#contact_right').addClass('animated fadeInRight')},200);
         }, { offset: '70%' });
 		}
     },
