@@ -195,11 +195,11 @@
             setTimeout(function(){$('#pricing_box2').addClass('animated fadeInLeft')},400);
             setTimeout(function(){$('#pricing_box3').addClass('animated fadeInLeft')},600);
         }, { offset: '70%' });
-        $('#news').waypoint(function() {
-            setTimeout(function(){$('#news_intro').addClass('animated fadeInUp')},0);
-            setTimeout(function(){$('#news1').addClass('animated fadeInUp')},200);
-            setTimeout(function(){$('#news2').addClass('animated fadeInUp')},400);
-            setTimeout(function(){$('#news3').addClass('animated fadeInUp')},600);
+        $('#blog').waypoint(function() {
+            setTimeout(function(){$('#blog_intro').addClass('animated fadeInUp')},0);
+            setTimeout(function(){$('#blog1').addClass('animated fadeInUp')},200);
+            setTimeout(function(){$('#blog2').addClass('animated fadeInUp')},400);
+            setTimeout(function(){$('#blog3').addClass('animated fadeInUp')},600);
             setTimeout(function(){$('#more_posts').addClass('animated fadeInUp')},800);
         }, { offset: '70%' });
         $('#contact').waypoint(function() {

@@ -1,7 +1,7 @@
 ---
 layout: default
-title: News
-permalink: /news/
+title: YCM Blog
+permalink: /blog/
 ---
 
 <div class="news">
