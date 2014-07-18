@@ -177,12 +177,12 @@
             setTimeout(function(){$('#services_intro').addClass('animated fadeInUp')},0);
         }, { offset: '50%' });
         $('#service1').waypoint(function() {
-            setTimeout(function(){$('#services_column_right').addClass('animated fadeInRight')},0);
+            setTimeout(function(){$('#services_column_left').addClass('animated fadeInLeft')},0);
             setTimeout(function(){$('#services1a_image').addClass('animated fadeInLeft')},600);
             setTimeout(function(){$('#services1b_image').addClass('animated fadeInLeft')},200);
         }, { offset: '50%' });
         $('#service2').waypoint(function() {
-            setTimeout(function(){$('#services_column_left').addClass('animated fadeInLeft')},0);
+            setTimeout(function(){$('#services_column_right').addClass('animated fadeInRight')},0);
             setTimeout(function(){$('#services2a_image').addClass('animated fadeInRight')},600);
             setTimeout(function(){$('#services2b_image').addClass('animated fadeInRight')},200);
         }, { offset: '50%' });
@@ -203,8 +203,8 @@
             setTimeout(function(){$('#more_posts').addClass('animated fadeInUp')},800);
         }, { offset: '70%' });
         $('#contact').waypoint(function() {
-            setTimeout(function(){$('#contact_left').addClass('animated fadeInLeft')},0);
-            setTimeout(function(){$('#contact_right').addClass('animated fadeInRight')},200);
+            setTimeout(function(){$('#contact_left').addClass('animated fadeInLeft')},300);
+            setTimeout(function(){$('#contact_right').addClass('animated fadeInRight')},300);
         }, { offset: '70%' });
 		}
     },

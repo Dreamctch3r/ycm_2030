@@ -12,7 +12,7 @@ body {
 .cbp-qtprogress,
 .cta1:hover
   {
-    background-color: #18bcf9;
+    background-color: #0a67f9;
 }
 
 
@@ -28,22 +28,22 @@ body {
 .cta1,
 .pricing_box_header h1,
 .news_icon,
-#contact_info3 h2,
+.contact_info h2,
 .pagination li a:hover,
 .pagination a.active,
 .comment a:hover 
 {
-    color:#18bcf9;
+    color:#0a67f9;
 }
 
 
 .cta1 {
-    border-color: #18bcf9;
+    border-color: #0a67f9;
 }
 .cta1:hover {
     color:white;
 }
 
 .nav-link:hover, .nav-link.active {
-    border:solid 3px #18bcf9;
+    border:solid 3px #0a67f9;
 }

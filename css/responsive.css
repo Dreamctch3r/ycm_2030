@@ -66,13 +66,13 @@
 	#pricing_box1,
 	#pricing_box2,
 	#pricing_box3,
-	#news_intro,
-	#news1,
-	#news2,
-	#news3,
+	#blog_intro,
+	#blog1,
+	#blog2,
+	#blog3,
 	#more_posts,
-	#contact_form,
-	#contact_info
+	#contact_left,
+	#contact_right
 	{
 	    opacity:0
 	}
