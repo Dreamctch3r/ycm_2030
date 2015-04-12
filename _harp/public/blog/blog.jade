@@ -1,0 +1,12 @@
+for post, slug in public.blog._data
+  h2: a(href="/blog/#{ slug }")= post.title
+  span.text-center
+    p
+      | By&nbsp;
+      span= post.author
+      | &nbsp;On&nbsp;
+      span= post.date
+    p= post.description
+  hr
+
+h3: a(href="#blog") Back to top

@@ -1,0 +1,41 @@
+// ###############################
+// TOP MENU ######################
+// ###############################
+section#nav_bar
+  .container
+    .row
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        #logo.logo
+          a(href="#{baseUrl}")
+            img(src="#{baseUrl}/images/logo.png", alt="logo")
+        nav#navigation.navigation
+          ul
+            li.visible-lg.visible-md.active
+              a#desktop_home(href="#{baseUrl}") Home
+            li.visible-lg.visible-md
+              a#desktop_about(href="#{baseUrl}/#about") About
+            li.visible-lg.visible-md
+              a(href="#{baseUrl}/#team") Team
+            li.visible-lg.visible-md
+              a(href="#{baseUrl}/#portfolio") Investment
+            li.visible-lg.visible-md
+              a(href="#{baseUrl}/#blog") Blog
+            li.visible-lg.visible-md
+              a(href="#{baseUrl}/#contact") Contact
+            li.hidden-lg.hidden-md
+              #showRight
+                i.mobile_nav_icon_open.fa.fa-bars.fa-2
+
+// ###############################
+// Mobile Navigation #############
+// ###############################
+#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right
+  h3 MENU
+  i#hideRight.fa.fa-times-circle
+  nav#mobile_menu_content.mobile_menu_content
+    a(href="#{baseUrl}") Home
+    a(href="#{baseUrl}/#about") About
+    a(href="#{baseUrl}/#team") Team
+    a(href="#{baseUrl}/#portfolio") Investment
+    a(href="#{baseUrl}/#blog") Blog
+    a(href="#{baseUrl}/#contact") Contact

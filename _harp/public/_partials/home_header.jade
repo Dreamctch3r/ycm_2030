@@ -1,0 +1,41 @@
+// ###############################
+// TOP MENU ######################
+// ###############################
+section#nav_bar
+  .container
+    .row
+      .col-xs-12.col-sm-12.col-md-12.col-lg-12
+        #logo.logo
+          a(href="#home")
+            img(src="#{baseUrl}/images/logo.png", alt="logo")
+        nav#navigation_home.navigation
+          ul
+            li.visible-lg.visible-md.active
+              a#desktop_home(href="#home") Home
+            li.visible-lg.visible-md
+              a#desktop_about(href="#about") About
+            li.visible-lg.visible-md
+              a(href="#team") Team
+            li.visible-lg.visible-md
+              a(href="#portfolio") Investment
+            li.visible-lg.visible-md
+              a(href="#blog") Blog
+            li.visible-lg.visible-md
+              a(href="#contact") Contact
+            li.hidden-lg.hidden-md
+              #showRight
+                i.mobile_nav_icon_open.fa.fa-bars.fa-2x
+
+// ###############################
+// Mobile Navigation #############
+// ###############################
+#cbp-spmenu-s2.cbp-spmenu.cbp-spmenu-vertical.cbp-spmenu-right
+  h3 MENU
+  i#hideRight.fa.fa-times-circle
+  nav#mobile_menu_content_home.mobile_menu_content
+    a(href="#home") Home
+    a(href="#about") About
+    a(href="#team") Team
+    a(href="#portfolio") Investment
+    a(href="#blog") Blog
+    a(href="#contact") Contact

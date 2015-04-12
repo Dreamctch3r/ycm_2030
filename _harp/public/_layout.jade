@@ -1,0 +1,73 @@
+doctype html
+html
+  != partial("_partials/head")
+
+  body
+
+    // ###############################
+    // PRELOADER #####################
+    // ###############################
+    #preloader
+      #status
+        .spinner
+          .bounce1
+          .bounce2
+          .bounce3
+
+    != partial("_partials/home_header")
+
+    != yield
+
+    != partial("_partials/footer")
+
+    // JavaScript plugins comes here
+    script(src="#{baseUrl}/js/jquery-2.0.3.min.js")
+    script(src="#{baseUrl}/js/jquery.easing.min.js")
+    script(src="#{baseUrl}/js/jquery.scrollTo.js")
+    script(src="#{baseUrl}/js/jquery.form.js")
+    script(src="#{baseUrl}/js/main.js")
+    script(src="#{baseUrl}/js/waypoints.min.js")
+    script(src="#{baseUrl}/js/owl.carousel.min.js")
+    script(src="#{baseUrl}/js/nivo-lightbox.min.js")
+    script(src="#{baseUrl}/js/classie.js")
+    script(src="#{baseUrl}/js/jquery.counterup.min.js")
+    script(src="#{baseUrl}/js/jquery.mb.YTPlayer.js")
+    script(src="#{baseUrl}/js/jquery.devrama.slider.js")
+    script(src="#{baseUrl}/js/jquery.fitvids.js")
+    script(src="#{baseUrl}/js/jquery.stellar.js")
+    script(src="#{baseUrl}/js/jquery.cbpQTRotator.js")
+
+    script.
+      $('#my-slide').DrSlider({
+        transition: 'slide-top',
+        width: '100%',
+        height: '30.875rem',
+        duration: 400000,
+        showControl: false,
+        showProgress: false,
+        pauseOnHover: false,
+        showControl: false,
+        userCSS: true,
+        navigationType: 'circle',
+        classNavigation: 'slider_nav',
+      });
+
+    script.
+      var showRight = document.getElementById( 'showRight' ),
+      hideRight = document.getElementById( 'hideRight' ),
+      menuRight = document.getElementById( 'cbp-spmenu-s2' ),
+      body = document.body;
+
+      showRight.onclick = function() {
+        "use strict";
+        classie.toggle( this, 'active' );
+        classie.toggle( menuRight, 'cbp-spmenu-open' );
+        disableOther( 'showRight' );
+      };
+
+      hideRight.onclick = function() {
+        "use strict";
+        classie.toggle( this, 'active' );
+        classie.toggle( menuRight, 'cbp-spmenu-open' );
+        disableOther( 'showRight' );
+      };

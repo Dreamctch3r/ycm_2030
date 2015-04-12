@@ -1,0 +1,24 @@
+{
+  "name": "YCM2030",
+  "homepage": "http://www.ycm2030.com",
+  "authors": [
+    "YCM2030"
+  ],
+  "description": "YCM2030 Public Website",
+  "keywords": [
+    "YCM2030",
+    "Youth",
+    "Concuousness",
+    "Movement"
+  ],
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/bower",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+  }
+}
