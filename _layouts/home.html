@@ -26,22 +26,22 @@
     {% include footer.html %}
 
     <!-- JavaScript plugins comes here -->
-    <script src="{{ "/js/jquery-2.0.3.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.easing.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.scrollTo.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.form.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/main.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/retina.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/waypoints.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/owl.carousel.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/nivo-lightbox.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/classie.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.counterup.min.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.mb.YTPlayer.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.devrama.slider.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.fitvids.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.stellar.js" | prepend: site.baseurl }}"></script>
-    <script src="{{ "/js/jquery.cbpQTRotator.js" | prepend: site.baseurl }}"></script>
+    <script src="#{baseUrl}/js/jquery-2.0.3.min.js"></script>
+    <script src="#{baseUrl}/js/jquery.easing.min.js"></script>
+    <script src="#{baseUrl}/js/jquery.scrollTo.js"></script>
+    <script src="#{baseUrl}/js/jquery.form.js"></script>
+    <script src="#{baseUrl}/js/main.js"></script>
+    <script src="#{baseUrl}/js/retina.js"></script>
+    <script src="#{baseUrl}/js/waypoints.min.js"></script>
+    <script src="#{baseUrl}/js/owl.carousel.min.js"></script>
+    <script src="#{baseUrl}/js/nivo-lightbox.min.js"></script>
+    <script src="#{baseUrl}/js/classie.js"></script>
+    <script src="#{baseUrl}/js/jquery.counterup.min.js"></script>
+    <script src="#{baseUrl}/js/jquery.mb.YTPlayer.js"></script>
+    <script src="#{baseUrl}/js/jquery.devrama.slider.js"></script>
+    <script src="#{baseUrl}/js/jquery.fitvids.js"></script>
+    <script src="#{baseUrl}/js/jquery.stellar.js"></script>
+    <script src="#{baseUrl}/js/jquery.cbpQTRotator.js"></script>
     <script>
         $('#my-slide').DrSlider({
             transition: 'slide-top',
@@ -63,7 +63,7 @@
         hideRight = document.getElementById( 'hideRight' ),
         menuRight = document.getElementById( 'cbp-spmenu-s2' ),
         body = document.body;
-        
+
         showRight.onclick = function() {
           "use strict";
             classie.toggle( this, 'active' );
